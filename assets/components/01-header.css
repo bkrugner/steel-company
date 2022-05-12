@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 200px;
+}
+
+.h_logo {
+  display: flex;
+  max-width: 100%;
+}
+
+.h_title {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  font: 18px/1em 'Roboto', serif;
+  color: #3c3c3b;
+  text-transform: uppercase;
+}
+
+.h_menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hm_item {
+  font: 16px/1em 'Roboto', sans-serif;
+  color: #3c3c3b;
+  text-transform: uppercase;
+}
+
+.hm_item:hover {
+  text-decoration: none;
+}

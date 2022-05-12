@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  height: calc(100vh - 174px);
+
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.banner.home {
+  background-image: url("/assets/img/main-banner.avif");
+  background-position: center center;
+}
+
+.banner.portfolio {
+  background-image: url("/assets/img/portfolio-banner.avif");
+  background-position: center center;
+}
+
+.banner.about {
+  background-image: url("/assets/img/about-banner.avif");
+  background-position: center center;
+}

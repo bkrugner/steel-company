@@ -1,0 +1,72 @@
+.brief {
+  padding: 150px 200px;
+
+  font: 25px/1em 'Roboto', serif;
+  line-height: 2.5em;
+  color: #3c3c3b;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42px;
+  padding: 130px 200px;
+  background-color: #fafafa;
+}
+
+.v_title {
+  font: 16px/1em 'Roboto', serif;
+  color: #3c3c3b;
+  text-transform: uppercase;
+
+  margin-bottom: 42px;
+}
+
+.v_info {
+  font: 14px/1em 'Roboto', serif;
+  line-height: 2.5em;
+  color: #3c3c3b;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42px;
+  padding: 150px 200px;
+
+  background: url("/assets/img/middlebanner-about.avif") center center fixed;
+  width: 100%;
+  height: calc(100vh - 174px);
+}
+
+.n_title {
+  text-align: center;
+  font: 22px/1em 'Roboto', serif;
+  color: #fff;
+  text-transform: uppercase;
+
+  margin-bottom: 42px;
+}
+
+.n_info {
+  font: 16px/1em 'Roboto', serif;
+  line-height: 2.5em;
+  color: #fff;
+}
+
+.trivia {
+  padding: 150px 200px;
+
+  font: 16px/1em 'Roboto', serif;
+  line-height: 2.5em;
+  color: rgba(0,0,0,.5);
+
+}
+
+.endbanner {
+  background: url("/assets/img/endbanner-about.avif") center center;
+  width: 100%;
+  height: calc(100vh - 174px);
+}

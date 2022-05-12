@@ -1,0 +1,20 @@
+.media {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 200px;
+}
+
+.m_link {
+  text-decoration: none;
+}
+
+.ml_content {
+  font: 12px/1em 'Roboto', serif;
+  color: rgba(0,0,0,.3);
+}
+
+.m_list {
+  display: flex;
+  gap: 16px;
+}
+
